@@ -19,10 +19,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hapu\\Amortizer\\AmortizeServiceProvider"
+                "Hapu\\LoanAmortizer\\AmortizeServiceProvider"
             ],
             "aliases": {
-                "Amortizer": "Hapu\\Amortizer\\Facades\\Amortizer"
+                "Amortizer": "Hapu\\LoanAmortizer\\Facades\\Amortizer"
             }
         }
     }
