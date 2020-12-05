@@ -1,0 +1,29 @@
+{
+    "name": "hapu/loan-amortizer",
+    "description": "Loan amortizer by hapu",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amila Lakmal",
+            "email": "hapuarachchi.93@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hapu\\LoanAmortizer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hapu\\Amortizer\\AmortizeServiceProvider"
+            ],
+            "aliases": {
+                "Amortizer": "Hapu\\Amortizer\\Facades\\Amortizer"
+            }
+        }
+    }
+}
