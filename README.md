@@ -3,7 +3,7 @@ Laravel Loan Amortizer Package
 
 composer require hapu/loan-amortizer --dev
 
-Usage 
+        use Hapu\LoanAmortizer\Facades\Amortizer;
 
         Amortizer::calculate([
             'loan_amount' 	=> 20000,
